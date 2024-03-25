@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  display: flex;
+}
+
+.navbar div {
+  /* padding-left:40px; 
+     padding-top:20px;    */
+  padding: 20px 40px;
+}
+
+.navbar a {
+  /* color: grey; */
+  /* float: right; */
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* .navbar a:hover {
+  background-color: #ddd;
+  color: #34b8bd;
+} */
+
+#navlinks {
+  flex: 57%;
+}
+
+#navbar1 {
+  flex: 43%;
+  /* background-color: #34b8bd;
+  height: 50px;
+  width: 50px; */
+  /* border-radius: 10px; */
+}
+
+a:link {
+  color: palevioletred;
+}
+a:hover {
+  color: orange;
+}
+a:visited {
+  color: greenyellow;
+}
+
+#cart1 {
+  vertical-align: baseline;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.size {
+  height: 500px;
+  padding: 50px;
+}
+.atext {
+  width: 50%;
+  /* margin-left: 45px; */
+}
+.btext {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+.order1 {
+  background-color: #f5fbfb;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.menutab {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menutab .menu1 {
+  width: 100px;
+  height: 50px;
+  width: 120px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 15px;
+  display: flex;
+  justify-content: center; /* To Center horizontally and vertically */
+  align-items: center;
+}
+
+.menutab .menu1 a {
+  text-decoration: none;
+}
+
+.menutab .menu1.green {
+  background-color: #34b8bd;
+}
+.menutab .menu1:hover {
+  background-color: #34b8bd;
+  color: black;
+  cursor: pointer;
+}
